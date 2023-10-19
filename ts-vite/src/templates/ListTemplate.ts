@@ -27,7 +27,7 @@ export default class ListTemplate implements DOMList {
       li.className = "item";
 
       const check = document.createElement("input") as HTMLInputElement;
-      check.type = "chekbox";
+      check.type = "checkbox";
       check.id = item.id;
       check.tabIndex = 0;
       check.checked = item.checked;
